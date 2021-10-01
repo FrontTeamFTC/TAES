@@ -104,30 +104,33 @@
   box-shadow: 1px 1px 4px #ccc;
 }
 
+@media (max-width: 1440px) {
+  .title {
+    margin-top: 1rem;
+  }
+
+  .card {
+    height: 500px;
+  }
+}
+
 @media (max-width: 1366px) {
   .title {
     margin-top: 1rem;
   }
 
   .card {
-    height: 450px;
+    height: 420px;
     width: 850px;
-  }
-
-  .aluno {
-    height: 284px;
-    width: 318px;
   }
 
   .professor img,
   .aluno img {
-    width: 200px;
+    width: 230px;
   }
-}
 
-@media (max-width: 1200px) {
-  .card {
-    height: 550px;
-    width: 900px;
+  .aluno img {
+    height: 142px;
+    width: 230px;
   }
 }
