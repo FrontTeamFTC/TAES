@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ptBR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Taes - Q&A</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="/index.html">
+        <h1>Taes - <span>Q&A</span></h1>
+      </a>
+
+      <nav class="nav-menu">
+        <ul class="social-media">
+          <li>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fab fa-discord"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+      <div class="container">
+        <div class="user signinBx">
+          <div class="imgBx">
+            <img src="img/prof.png" alt="" />
+          </div>
+          <div class="formBx">
+            <form action="">
+              <h2>Sign in</h2>
+              <input type="text" placeholder="Usuário" />
+              <input type="password" placeholder="Senha" />
+              <input type="submit" value="Login" />
+              <p class="signup">
+                não possui conta?
+                <a href="#" onclick="toggleForm();">clique aqui.</a>
+              </p>
+            </form>
+          </div>
+        </div>
+
+        <div class="user signupBx">
+          <div class="formBx">
+            <form action="">
+              <h2>Crie uma conta</h2>
+              <input type="text" placeholder="Usuário" />
+              <input type="text" placeholder="E-mail" />
+              <input type="password" placeholder="Senha" />
+              <input
+                type="password"
+                placeholder="Confirme a senha"
+                name=""
+                id=""
+              />
+              <input type="submit" value="Criar" />
+              <p class="signup">
+                possui conta? <a href="#" onclick="toggleForm();">clique.</a>
+              </p>
+            </form>
+          </div>
+          <div class="imgBx">
+            <img src="img/prof.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      function toggleForm() {
+        container = document.querySelector(".container");
+        section = document.querySelector("section");
+        container.classList.toggle("active");
+        section.classList.toggle("active");
+      }
+    </script>
+  </body>
+</html>

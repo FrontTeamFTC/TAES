@@ -1,0 +1,133 @@
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+.header a {
+  color: #000;
+}
+
+.header span {
+  color: #3358dd;
+}
+
+.social-media {
+  align-items: center;
+  display: flex;
+}
+
+.social-media li {
+  margin: 1rem;
+}
+
+.social-media li a {
+  color: #3358dd;
+  font-size: 1.35rem;
+}
+
+.social-media li a i {
+  transition: all 0.2s ease;
+}
+
+.social-media li a i:hover {
+  transform: scale(1.3);
+}
+
+.main-content {
+  align-items: center;
+  background-color: #3358dd;
+  background-image: url("../img/back.svg");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+}
+
+.card {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 20px;
+  height: 650px;
+  text-align: center;
+  width: 1000px;
+  position: relative;
+}
+
+.title {
+  color: #3358dd;
+  margin-top: 3rem;
+}
+
+.title h1 {
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.login-container {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.line {
+  margin: 0 1rem;
+}
+
+.professor,
+.aluno {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+  transition: all 0.2s ease;
+  margin: 0;
+  width: 398px;
+}
+
+.professor h1,
+.aluno h1 {
+  text-transform: uppercase;
+  color: #3358dd;
+  margin-bottom: 2rem;
+}
+
+.professor:hover,
+.aluno:hover {
+  box-shadow: 1px 1px 4px #ccc;
+}
+
+@media (max-width: 1366px) {
+  .title {
+    margin-top: 1rem;
+  }
+
+  .card {
+    height: 450px;
+    width: 850px;
+  }
+
+  .aluno {
+    height: 284px;
+    width: 318px;
+  }
+
+  .professor img,
+  .aluno img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .card {
+    height: 550px;
+    width: 900px;
+  }
+}
