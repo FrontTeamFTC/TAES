@@ -1,0 +1,74 @@
+*{
+padding: 0;
+margin: 0;
+ box-sizing: border-box;
+}
+header{
+    background-color: rgb(236, 236, 236);
+    
+}
+.container_header{
+    display: flex;
+    height: auto;
+    padding: 20px 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+.logo img{
+    width: 20%;
+}
+.logos_RedeSocial i{
+    font-size: 25px;
+    padding: 0 5px;
+    color: #3358DD;
+    
+}
+
+
+.user{
+    width: 100%;
+    height: auto;
+    background-color: #ccc;
+}
+.ContainerUser{
+    display: flex;
+    padding: 10px;
+    padding: 15px 10px 10px 0px;
+    width: 80%;
+    margin: 0 auto;
+
+}
+.fotoUser img{
+    width: 50px;
+}
+
+.DadosUsuario{
+    padding: 0 10px;
+}
+.DadosUsuario span{
+    color: #fff;
+    background-color: #3358DD;
+    padding: 5px 10px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+.DadosUsuario a{
+    text-decoration: none;
+}
+
+.DadosUsuario h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3358DD;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+.DadosUsuario h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #808080;
+    font-weight: 100;
+}
