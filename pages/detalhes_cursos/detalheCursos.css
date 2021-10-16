@@ -161,71 +161,27 @@ main{
     
 }
 
-.blocoAtividade{  
+.blocoAtividade2{  
 background: #FFFFFF;
 box-shadow: 2px 4px 22px rgba(0, 0, 0, 0.25);
 border-radius: 13px;
 display: flex;
 justify-content: center;
 flex-direction: column;
-width: 240px;
+width: 100%;
 margin: 20px;
 
 }
-.Cont_titleAtividade{
-    background: #33DD77;
-border-radius: 10px;
+
+.acordion_button{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: #808080;
 }
+.acordion_content{
 
-.Cont_titleAtividade h3{
-    text-transform: uppercase;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 20px;
-    font-family: arial;
-
-}
-
-.cont_Pontos{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 20px;
-    text-align: center;
-}
-
-.PontosPossiveis h4{
-    color: #3358DD;
-    text-transform: uppercase;
-    font-size: 17px;
-    font-family: arial;
-}
-
-.PontosPossiveis h3{
-    color:#3358DD ;
-    text-transform: uppercase;
-    font-size: 40px;
-    font-family: arial;
-
-}
-
-.traco_veritical{
-    height: 50px;
-    width: 2px;
-    background-color: #dfdfdf;
-}
-
-.suaNota h4{
-    color: #FF7E64;
-    text-transform: uppercase;
-    font-size: 17px;
-    font-family: arial;
-}
-
-.suaNota h3{
-    color: #FF7E64;
-    text-transform: uppercase;
-    font-size: 40px;
-    font-family: arial;
 }
