@@ -159,6 +159,7 @@ main {
 .cursos strong {
     margin-top: 1rem;
     padding: 0 1rem;
+    text-align: center;
 }
 
 .cursos a {
