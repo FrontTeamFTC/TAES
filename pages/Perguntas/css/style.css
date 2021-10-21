@@ -1,0 +1,206 @@
+*{
+  padding: 0;
+  margin: 0;
+   box-sizing: border-box;
+  }
+  header{
+      background-color: rgb(255, 255, 255);
+      
+  }
+  .container_header{
+      display: flex;
+      height: auto;
+      padding: 20px 10px;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 80%;
+      margin: 0 auto;
+  }
+  .logo img{
+      width: 20%;
+  }
+  .logos_RedeSocial i{
+      font-size: 25px;
+      padding: 0 5px;
+      color: #3358DD;
+      
+  }
+  
+  
+  .user{
+      width: 100%;
+      height: auto;
+      background-color: rgb(236, 236, 236);
+  }
+  .ContainerUser{
+      display: flex;
+      padding: 10px;
+      padding: 15px 10px 10px 0px;
+      width: 80%;
+      margin: 0 auto;
+  
+  }
+  .fotoUser img{
+      width: 50px;
+  }
+  
+  .DadosUsuario{
+      padding: 0 10px;
+  }
+  .DadosUsuario span{
+      color: #fff;
+      background-color: #3358DD;
+      padding: 5px 10px;
+      font-size: 10px;
+      font-family: Arial, Helvetica, sans-serif;
+      border-radius: 10px;
+  }
+  .DadosUsuario a{
+      text-decoration: none;
+  }
+  
+  .DadosUsuario h2{
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #3358DD;
+      text-transform: uppercase;
+      padding-top: 5px;
+  }
+  
+  .DadosUsuario h3{
+      font-family: Arial, Helvetica, sans-serif;
+      color: #808080;
+      font-weight: 100;
+  }
+  
+  .container{
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      height: 100%;
+  }
+  
+  .sidebar{
+      background-color: #3358DD;
+      width: 15%;
+  }
+  
+  .menus_sideBar ul li{
+      color: #fff;
+      font-size: 17px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  .menus_sideBar ul a{
+      text-decoration: none;
+  
+  }
+  .menus_sideBar ul li{
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      transition: 0.8s;
+  
+  }
+  
+  .menus_sideBar ul li:hover{
+      background: white;
+      color: #3358DD;
+  }
+  
+  .activeMenu{
+      color: #fffb00 !important;
+  }
+  .activeMenu:hover {
+      color: #3358DD !important;
+  }
+
+.main-container {
+  width: calc(100% - 15%);
+  float: right;
+}
+
+.header-main {
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.header-main h2 {
+  color: #808080;
+}
+
+.header-main img {
+  max-width: 120px;
+  margin-right: 2rem;
+}
+
+.pergunta {
+  border-bottom: 1px solid #ccc;
+  padding: 3rem;
+}
+
+.pergunta h3 {
+  color: #3358dd;
+}
+
+.pergunta p {
+  font-size: 1.12rem;
+  margin: 2rem 0;
+  letter-spacing: 0.05rem;
+}
+
+.respostas{
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.respostas span{
+  font-size: 1.01rem;
+  margin: 1.5rem 0;
+  letter-spacing: 0.05rem;
+}
+
+.respostas input{
+  margin-right: 8px;
+  width: 17px;
+  height: 17px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.get-out {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.get-out button {
+  background-color: #f51818;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.12rem;
+  height: 2rem;
+  letter-spacing: 0.04rem;
+  margin-top: 1rem;
+  transition: 0.2s ease;
+  width: 10rem;
+}
+
+.get-out small {
+  color: #a9ada9;
+  margin-top: 0.5rem;
+}
+
+.get-out button:hover {
+  box-shadow: 0 0 0 2px #f7f5f5;
+}
