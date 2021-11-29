@@ -1,0 +1,222 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+  
+html,
+body {
+    height: 100%;
+    font-family: "Roboto", sans-serif;
+    overflow: hidden;
+}
+  
+a {
+    text-decoration: none;
+}
+  
+ul {
+    list-style: none;
+}
+  
+button {
+    cursor: pointer;
+}
+
+.container_header{
+    display: flex;
+    height: auto;
+    background-color: #fff;
+    padding: 20px 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.logo img{
+    width: 20%;
+}
+
+.logos_RedeSocial i{
+    font-size: 25px;
+    padding: 0 5px;
+    color: #3358DD;
+}
+
+.user{
+    width: 100%;
+    height: auto;
+    background-color: rgb(236, 236, 236);
+}
+
+.ContainerUser{
+    display: flex;
+    padding: 10px;
+    padding: 15px 10px 10px 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.fotoUser img{
+    width: 50px;
+}
+
+.DadosUsuario{
+    padding: 0 10px;
+}
+
+.DadosUsuario span{
+    color: #fff;
+    background-color: #3358DD;
+    padding: 5px 10px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+}
+
+.DadosUsuario a{
+    text-decoration: none;
+}
+
+.DadosUsuario h2{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3358DD;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+
+.DadosUsuario h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #808080;
+    font-weight: 100;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.sidebar{
+    background-color: #3358DD;
+    min-height: 100vh;
+    width: 15%;
+}
+
+.menus_sideBar ul i{
+    display: none;
+}
+
+.menus_sideBar ul li{
+    color: #fff;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menuAcordion > .acordion_content a{
+    color:#fff;
+}
+
+.menuAcordion > .acordion_content ul li:hover{
+    background: white;
+    color: #000;
+}
+
+.menus_sideBar ul a{
+    text-decoration: none;
+}
+
+.menus_sideBar ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    transition: 0.8s;
+}
+
+.menus_sideBar button{
+    border: 0;
+    border-radius: 0;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    background: #3358DD;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 20px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.aluno {
+    display: none;
+}
+
+.menus_sideBar button:hover{
+    background: white;
+    color: #3358DD;
+}
+
+.menus_sideBar ul li:hover{
+    background: white;
+    color: #3358DD;
+}
+
+.activeMenu li{
+    color: #fffb00 !important;
+}
+.activeMenu:hover li{
+    color: #3358DD !important;
+}
+
+/* adicionar o main aqui! */
+
+
+
+
+
+
+
+
+/* pra cima */
+
+@media (max-width: 900px) {
+    .banners {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .bannerPrincipal img {
+      max-width: 400px;
+    }
+
+    .menus_sideBar ul li {
+        display: none;
+    }
+
+    .menus_sideBar ul i{
+        color: #fff;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        text-align: center;
+        transition: 0.8s;
+        display: block;
+    }
+
+    .menus_sideBar ul i:hover{
+        background: white;
+        color: #3358DD;
+    }
+
+    .activeMenu i{
+        color: #fffb00 !important;
+    }
+    .activeMenu:hover i{
+        color: #3358DD !important;
+    }
+}
